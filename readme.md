@@ -1,159 +1,110 @@
 Resumo gerado por IA, os codigos nas pastas foram esritos 100% por min sem uso IA.
 
-# 📚 Resumo de Algoritmos e Lógica de Programação
+# 🎓 Disciplina de Algoritmos e Lógica de Programação
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
-![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
-![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/Status-em%20desenvolvimento-yellow)
+![IFPB](https://img.shields.io/badge/IFPB-Algoritmos-blue)
 
-Repositório com exercícios e projetos da disciplina de **Algoritmos e Lógica de Programação**, desenvolvidos em Python. Inclui desde conceitos fundamentais até desafios com validações complexas.
-
-## 🎯 Conceitos Fundamentais Utilizados
-
-### 1️⃣ Entrada e Saída de Dados
-- `input()` - Leitura de dados do usuário como string
-- `print()` - Exibição de resultados no console
-- `float()` e `int()` - Conversão de tipos de dados
-
-### 2️⃣ Variáveis e Tipos de Dados
-- Inteiros (`int`)
-- Números decimais (`float`)
-- Strings (`str`)
-- Atribuição e manipulação de variáveis
-
-### 3️⃣ Operadores Aritméticos
-- Soma: `+` | Subtração: `-` | Multiplicação: `*`
-- Divisão simples: `/` | Divisão inteira: `//` | Resto: `%`
-- Potenciação: `**`
-- Expressões matemáticas complexas
-
-### 4️⃣ Operadores de Comparação e Lógicos
-- Comparadores: `==`, `!=`, `<`, `>`, `<=`, `>=`
-- Operadores lógicos: `and`, `or`, `not`
-- Combinação de múltiplas condições
-- Validação de intervalos (ex: `1 <= valor <= 10`)
-
-### 5️⃣ Estruturas de Controle de Fluxo
-
-#### Condicionais (if, elif, else)
-- Decisões simples com `if`
-- Múltiplas alternativas com `elif`
-- Comportamento padrão com `else`
-- Validação e tratamento de casos especiais
-
-#### Estruturas Repetitivas (while)
-- Loop com `while` para validação de entrada
-- `while True` para loops infinitos com condição de saída
-- Incremento/decremento de variáveis
-
-### 6️⃣ Formatação de Strings
-- F-strings: `f'{variavel:.2f}'`
-- Formatação decimal com `:` (ex: `:.3f`, `:.2f`)
-- Quebras de linha com `\n`
-- Interpolação de variáveis em strings
-
-### 7️⃣ Problemas Matemáticos Implementados
-
-#### 💰 Cálculos Financeiros
-- Preço unitário × quantidade
-- Percentuais de aumento e desconto
-- Cálculo de impostos
-- Parcelamento de valores
-- Cálculo de comissões
-
-#### 📐 Geometria
-- Área de retângulo
-- Área do setor circular
-- Comprimento do arco
-- Número de diagonais de polígono
-- Ângulos em triângulo (180°)
-
-#### ⚡ Física e Conversões
-- Consumo de combustível
-- Conversão de temperatura (Kelvin → Celsius)
-- Velocidade e tempo
-
-#### 💪 Saúde
-- Cálculo de IMC (Índice de Massa Corporal)
-- Validação de intervalos normais
-
-#### 🔢 Sistemas de Numeração e Cédulas
-- Operadores `//` e `%` para análise de dígitos
-- Decomposição de valores em cédulas (100, 50, 20, 10, 5, 2, 1)
-
-### 8️⃣ Validação de Entrada
-- Verificação de intervalos válidos
-- Validação de pré-condições
-- Mensagens de erro customizadas
-- Loop até entrada válida
-
-### 9️⃣ Lógica Condicional Avançada
-- Múltiplas condições combinadas
-- Decisões em cascata (if-elif-elif-elif)
-- Validação de critérios da FIES (Possível Prova)
-- Verificação de fraude em ofertas de carro
-- Análise de elegibilidade com múltiplos critérios
-
-### 🔟 Operações com Percentuais
-- Cálculo de porcentagem: `(valor / 100) * total`
-- Desconto percentual
-- Taxa de aumento
-- Conversão para porcentagem inteira
-
-## 📁 Estrutura do Projeto
-
-```
-Faculdade/
-├── index.py                 # Códigos introdutórios com expressões
-├── index2.py               # Cálculos simples básicos
-├── atividades 2 lista/     # 16 problemas progressivos
-│   ├── 1.py ao 16.py       # Exercícios de dificuldade crescente
-└── Possivel Prova/         # 3 desafios avançados
-    └── 1.py ao 3.py        # Problemas com validações complexas
-```
-
-### 📝 Descrição dos Diretórios
-
-| Diretório | Descrição |
-|-----------|-----------|
-| **index.py e index2.py** | Códigos introdutórios com expressões e cálculos simples |
-| **atividades 2 lista/** | 16 problemas progressivos de lógica e matemática |
-| **Possivel Prova/** | 3 desafios mais complexos com múltiplas validações |
-
-## 📈 Dificuldade Progressiva
-
-Os códigos evoluem seguindo a seguinte progressão:
-
-```
-Cálculos Simples → Validações Básicas → Controle de Fluxo → Lógica Avançada
-```
-
-Desde expressões aritméticas até problemas que envolvem múltiplas validações e critérios complexos, demonstrando aumento progressivo no domínio de estruturas de controle e lógica condicional.
-
-## 🛠️ Como Usar
-
-1. Clone ou baixe este repositório
-2. Navegue até o diretório desejado
-3. Execute os arquivos `.py` com Python:
-   ```bash
-   python nome_do_arquivo.py
-   ```
-
-## 🎓 Objetivos de Aprendizado
-
-- ✅ Dominar operadores aritméticos e lógicos
-- ✅ Implementar estruturas de controle de fluxo
-- ✅ Validar entradas de usuário
-- ✅ Resolver problemas matemáticos complexos
-- ✅ Trabalhar com múltiplas condições
-- ✅ Utilizar strutura de repetição eficientemente
-
-## 📚 Referências
-
-- Python Documentation: https://docs.python.org/3/
-- Conceitos de Algoritmos e Lógica de Programação
+Repositório com exercícios, atividades e desafios da disciplina de **Algoritmos e Lógica de Programação** do IFPB. Conteúdo organizado por períodos, progredindo de fundamentos até problemas com lógica avançada.
 
 ---
 
-**Desenvolvido por:** Breno Celestino  
-**Data:** 2026
+## 📚 Estrutura de Períodos
+
+### [1º Período (1P) →](1P/)
+**Fundamentos de Programação em Python**
+
+Introdução aos conceitos básicos de programação, incluindo entrada/saída, operadores aritméticos, estruturas de controle de fluxo e validação de entrada. Estruturado em 19+ exercícios progressivos, desde cálculos simples até problemas com múltiplas validações e lógica condicional avançada.
+
+- **index.py, index2.py:** Primeiros programas
+- **atividades 2 lista/:** 16 exercícios progressivos (1.py a 16.py)
+- **Possivel Prova/:** 3 desafios avançados (1.py a 3.py)
+
+**Status:** ✅ Completo
+
+---
+
+### [2º Período (2P) →](2P/)
+**[Em Desenvolvimento]**
+
+Próximas unidades cobrindo tópicos mais avançados como estruturas de dados, funções, e algoritmos.
+
+**Status:** 🔄 Planejado
+
+---
+
+## 🎯 Objetivos Gerais
+
+Ao completar esta disciplina, você será capaz de:
+
+- ✅ Escrever programas Python desde cálculos até lógica complexa
+- ✅ Utilizar estruturas de controle de fluxo eficientemente
+- ✅ Validar entrada de usuários com robustez
+- ✅ Resolver problemas matemáticos e lógicos
+- ✅ Implementar soluções com múltiplos critérios
+- ✅ Estruturar código claro e compreensível
+
+---
+
+## 📖 Como Navegar
+
+1. **Para começar:** Acesse a pasta `1P/` e leia o `readme.md`
+2. **Para resolver exercícios:** Navegue até a subpasta desejada
+3. **Para testar:** Execute os arquivos `.py` com Python
+
+```bash
+# Exemplo: executar primeiro exercício
+python 1P/atividades\ 2\ lista/1.py
+```
+
+---
+
+## 📂 Estrutura Geral
+
+```
+Faculdade/
+├── readme.md                      # Este arquivo (guia geral)
+├── 1P/                            # 1º Período (Fundamentos)
+│   ├── readme.md                  # Resumo do período
+│   ├── index.py                   # Programa introdutório
+│   ├── index2.py                  # Programa básico
+│   ├── atividades 2 lista/        # 16 exercícios progressivos
+│   │   ├── 1.py
+│   │   ├── 2.py
+│   │   └── ... até 16.py
+│   └── Possivel Prova/            # 3 desafios de prova
+│       ├── 1.py
+│       ├── 2.py
+│       └── 3.py
+└── 2P/                            # 2º Período (Em planejamento)
+    └── readme.md
+```
+
+---
+
+## 🚀 Recomendações
+
+- **Iniciante?** Comece pelo `1P/index.py` e `1P/index2.py`
+- **Praticar?** Resolva os exercícios em ordem crescente da pasta `atividades 2 lista/`
+- **Desafiar-se?** Teste seus conhecimentos em `Possivel Prova/`
+- **Revisar?** Cada período tem um `readme.md` com resumo completo
+
+---
+
+## 📖 Conteúdo Resumido (1º Período)
+
+**O que você aprenderá:**
+- Entrada/saída (`input()`, `print()`)
+- Operadores aritméticos e lógicos
+- Estruturas de controle (`if/elif/else`, `while`)
+- Validação de entrada robusta
+- Resolução de problemas práticos
+- Lógica condicional com múltiplos critérios
+
+---
+
+**Instituição:** IFPB  
+**Disciplina:** Algoritmos e Lógica de Programação  
+**Autor:** Breno Celestino  
+**Data de Atualização:** 2026
