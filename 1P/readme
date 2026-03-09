@@ -1,0 +1,109 @@
+# Resumo dos Conhecimentos em Algoritmos
+
+Codigos relacionados as materia de algoritmos.
+
+## Conceitos Fundamentais Utilizados
+
+### 1. **Entrada e Saída de Dados**
+- `input()`: Leitura de dados do usuário como string
+- `print()`: Exibição de resultados no console
+- `float()` e `int()`: Conversão de tipos de dados
+
+### 2. **Variáveis e Tipos de Dados**
+- Inteiros (`int`)
+- Números decimais (`float`)
+- Strings (`str`)
+- Atribuição e manipulação de variáveis
+
+### 3. **Operadores Aritméticos**
+- Soma: `+`
+- Subtração: `-`
+- Multiplicação: `*`
+- Divisão simples: `/`
+- Divisão inteira: `//`
+- Resto da divisão: `%`
+- Potenciação: `**`
+- Expressões matemáticas complexas
+
+### 4. **Operadores de Comparação e Lógicos**
+- Comparadores: `==`, `!=`, `<`, `>`, `<=`, `>=`
+- Operadores lógicos: `and`, `or`, `not`
+- Combinação de múltiplas condições
+- Validação de intervalos (ex: `1 <= valor <= 10`)
+
+### 5. **Estruturas de Controle de Fluxo**
+
+#### Condicionais (if, elif, else)
+- Decisões simples com `if`
+- Múltiplas alternativas com `elif`
+- Comportamento padrão com `else`
+- Validação e tratamento de casos especiais
+
+#### Estruturas Repetitivas (while)
+- Loop com `while` para validação de entrada
+- `while True` para loops infinitos com condição de saída
+- Incremento/decremento de variáveis
+
+### 6. **Formatação de Strings**
+- F-strings: `f'{variavel:.2f}'`
+- Formatação decimal com `:` (ex: `:.3f`, `:.2f`)
+- Quebras de linha com `\n`
+- Interpolação de variáveis em strings
+
+### 7. **Problemas Matemáticos Implementados**
+
+#### Cálculos Financeiros
+- Preço unitário × quantidade
+- Percentuais de aumento e desconto
+- Cálculo de impostos
+- Parcelamento de valores
+- Cálculo de comissões
+
+#### Geometria
+- Área de retângulo
+- Área do setor circular
+- Comprimento do arco
+- Número de diagonais de polígono
+- Ângulos em triângulo (180°)
+
+#### Física e Conversões
+- Consumo de combustível
+- Conversão de temperatura (Kelvin → Celsius)
+- Velocidade e tempo
+
+#### Saúde
+- Cálculo de IMC (Índice de Massa Corporal)
+- Validação de intervalos normais
+
+#### Sistemas de Numeração e Cédulas
+- Operadores `//` e `%` para análise de dígitos
+- Decomposição de valores em cédulas (100, 50, 20, 10, 5, 2, 1)
+
+### 8. **Validação de Entrada**
+- Verificação de intervalos válidos
+- Validação de pré-condições
+- Mensagens de erro customizadas
+- Loop até entrada válida
+
+### 9. **Lógica Condicional Avançada**
+- Múltiplas condições combinadas
+- Decisões em cascata (if-elif-elif-elif)
+- Validação de critérios da FIES (Possível Prova)
+- Verificação de fraude em ofertas de carro
+- Análise de elegibilidade com múltiplos critérios
+
+### 10. **Operações com Percentuais**
+- Cálculo de porcentagem: `(valor / 100) * total`
+- Desconto percentual
+- Taxa de aumento
+- Conversão para porcentagem inteira
+
+## Estrutura do Projeto
+
+- **index.py e index2.py**: Códigos introdutórios com expressões e cálculos simples
+- **atividades 2 lista/**: 16 problemas progressivos de lógica e matemática
+- **Possivel Prova/**: 3 desafios mais complexos com múltiplas validações e critérios
+
+## Dificuldade Progressiva
+
+Os códigos evoluem de simples cálculos para problemas com múltiplas validações, demonstrando domínio crescente de estruturas de controle e lógica condicional.
