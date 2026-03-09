@@ -1,3 +1,5 @@
+Resumo gerado por IA, os codigos nas pastas foram esritos 100% por min sem uso IA.
+
 # 📚 Resumo de Algoritmos e Lógica de Programação
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
