@@ -1,152 +1,64 @@
-# 📖 1º Período - Fundamentos de Programação em Python
+# 1P - Fundamentos em Python
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
-![Exercises](https://img.shields.io/badge/Exerc%C3%ADcios-19+-green)
-![Status](https://img.shields.io/badge/Status-Completo-brightgreen)
+Este periodo contem duas listas de exercicios praticos.
 
-## 📚 Resumo do Período
+## Estrutura real
 
-Introdução aos **fundamentos da programação em Python** com ênfase em conceitos essenciais para resolver problemas matemáticos e lógicos. O período é estruturado em progressão desde operações básicas até desafios com múltiplas validações.
+- `atividades 1 lista/`: 6 exercicios (`1.py` a `6.py`)
+- `atividades 2 lista/`: 21 exercicios (`1.py` a `21.py`)
 
-**Arquivos do período:**
-- `index.py`, `index2.py` - Fundamentos básicos
-- `atividades 2 lista/` - 16 exercícios progressivos
-- `Possivel Prova/` - 3 desafios de prova avançados
+Total atual: **27 exercicios**.
 
-## 🎯 Conhecimentos Adquiridos
+## Resumo dos conteudos
 
-### 🔹 Fundamentos Básicos
-- **Entrada e Saída:** `input()`, `print()`
-- **Conversão de Tipos:** `int()`, `float()`, conversão implícita
-- **Variáveis:** Atribuição, nomenclatura, reatribuição
-- **Operações Aritméticas:** `+`, `-`, `*`, `/`
-- **Expressões Matemáticas:** Ordem de operações, parênteses
+### Atividades 1 lista
 
-### 🔹 Operadores Especiais e Avançados
-- **Divisão Inteira:** `//` (quociente sem resto)
-- **Módulo/Resto:** `%` (resto da divisão)
-- **Potenciação:** `**` (exponenciação)
-- **Aplicações:** Decomposição em cédulas, análise de dígitos
+1. Conversao de real para dolar com cotacao fixa.
+2. Calculo de polinomio em funcao de `x`.
+3. Total de compra por tamanhos de camiseta.
+4. Media ponderada com pesos 6 e 4.
+5. Conversao de Celsius para Fahrenheit.
+6. Quantidade total de litros de refrigerante por embalagem.
 
-### 🔹 Estruturas de Controle de Fluxo
-- **Condicionais:** `if`, `elif`, `else`
-- **Loops Validação:** `while True` com condição de saída
-- **Lógica Booleana:** `==`, `!=`, `<`, `>`, `<=`, `>=`
-- **Operadores Lógicos:** `and`, `or`, `not`
+### Atividades 2 lista
 
-### 🔹 Validação de Entrada
-- **Loops de Validação:** Repetir até entrada válida
-- **Intervalos:** Validar se valor está entre limites `(a <= x <= b)`
-- **Múltiplas Condições:** Combinar validações com `and`/`or`
-- **Mensagens de Erro:** Feedback ao usuário sobre entrada inválida
+1. Valor de refeicao por peso (R$/kg).
+2. Reajuste de salario e desconto de imposto.
+3. Consumo de combustivel em viagem (km/l).
+4. Area de retangulo com validacoes.
+5. Calculo de IMC.
+6. Comprimento de arco e area de setor circular.
+7. Quantidade de diagonais de um poligono.
+8. Tempo de viagem com velocidade relativa.
+9. Numero de pecas em padrao triangular.
+10. Decomposicao de valor em notas e moeda de 1.
+11. Conversao de Kelvin para Celsius.
+12. Preco a vista, parcelamento e comissao de vendedor.
+13. Terceiro angulo de um triangulo.
+14. Calculo de idade (ano atual - ano de nascimento).
+15. Pagamento com hora extra percentual.
+16. Percentual de votos por candidato e nulos.
+17. Conta de energia com taxa de iluminacao.
+18. Custo de aluguel de carro com desconto.
+19. Perimetro e area de hexagono regular.
+20. Diferenca entre produtos (`A*B - C*D`).
+21. Divisao inteira e resto de `P` por 3.
 
-### 🔹 Formatação e Apresentação
-- **F-strings:** `f'{variavel:.2f}'` para formatação
-- **Casas Decimais:** `:.2f`, `:.3f` para arredondamento
-- **Quebras de Linha:** `\n` para formatação de saída
-- **String Manipulation:** Concatenação, interpolação
+## Conceitos praticados
 
-### 🔹 Aplicações Práticas
+- `input()`, `print()` e conversoes (`int`, `float`)
+- Operacoes aritmeticas e potencia
+- Divisao inteira e modulo
+- Formatação de saida com f-strings
+- Condicionais e validacao de entrada
+- Repeticao com `while`
 
-#### Cálculos Financeiros
-- Preço por quantidade
-- Descontos e aumentos percentuais
-- Decomposição em cédulas
-- Cálculos de juros
+## Execucao
 
-#### Geometria
-- Área de retângulo
-- Área de setor circular
-- Número de diagonais em polígonos
-- Validação de triângulos (condição de existência)
+Exemplos:
 
-#### Saúde
-- Cálculo de IMC (Índice de Massa Corporal)
-- Validação de intervalos normais
-
-#### Física e Conversões
-- Conversão de temperatura (Kelvin → Celsius)
-- Cálculos de velocidade e tempo
-
-#### Sistemas de Numeração
-- Operadores `//` e `%` para análise de números
-- Extração de dígitos individuais
-- Análise de padrões numéricos
-
-### 🔹 Lógica Condicional Avançada
-- **Árvores de Decisão:** Múltiplos `elif` encadeados
-- **Critérios Complexos:** Combinar múltiplas validações
-- **Validação de Elegibilidade:** Aplicar regras de negócio
-- **Detecção de Padrões:** Identificar irregularidades (fraude)
-
-## 🏆 Habilidades Desenvolvidas
-
-✅ **Programação Básica**
-- Escrever programas com entrada/saída
-- Usar variáveis e tipos de dados
-- Realizar operações aritméticas e lógicas
-
-✅ **Estruturas de Controle**
-- Implementar decisões com `if/elif/else`
-- Criar loops de validação com `while`
-- Combinar múltiplas condições
-
-✅ **Resolução de Problemas**
-- Decompor problemas em passos
-- Implementar validações robustas
-- Trabalhar com critérios múltiplos
-
-✅ **Código de Qualidade**
-- Formatar saída adequadamente
-- Exibir mensagens claras ao usuário
-- Estruturar lógica compreensível
-
-## 📊 Estrutura de Exercícios
-
-| Seção | Quantidade | Foco | Dificuldade |
-|-------|-----------|------|------------|
-| Fundamentos | 2 arquivos | Expressões e cálculos | ⭐ |
-| Atividades Lista | 16 exercícios | Progressão gradual | ⭐ a ⭐⭐⭐ |
-| Possível Prova | 3 desafios | Integração de conceitos | ⭐⭐⭐ a ⭐⭐⭐⭐ |
-| **Total** | **19+ exercícios** | **Fundamentos completos** | **Progressivo** |
-
-## 🚀 Conteúdo Abordado
-
-**Exercícios 1-5:** Operações básicas com validação simples  
-**Exercícios 6-11:** Operadores `//` e `%`, validação de intervalos  
-**Exercícios 12-16:** Múltiplas condições, lógica booleana  
-**Prova 1:** Detecção de padrões (fraude em ofertas)  
-**Prova 2:** Validação de múltiplos critérios (elegibilidade FIES)  
-**Prova 3:** Desafio integrador  
-
-## 💡 Conceitos-Chave por Ordem
-
-1. `input()` → Ler dados
-2. `float()`/`int()` → Converter tipos
-3. Operações: `+`, `-`, `*`, `/`, `//`, `%`, `**`
-4. Comparação: `==`, `!=`, `<`, `>`, `<=`, `>=`
-5. Lógica: `and`, `or`, `not`
-6. Controle: `if`, `elif`, `else`, `while`
-7. Combinação: Múltiplas condições
-8. Validação: Loops com condições de saída
-9. Formatação: F-strings, casas decimais
-10. Aplicação: Árvores de decisão complexas
-
-## 📂 Organização de Arquivos
-
+```powershell
+python "1P/atividades 1 lista/4.py"
+python "1P/atividades 2 lista/10.py"
 ```
-1P/
-├── readme.md                  # Este documento
-├── index.py                   # Introdução ao Python
-├── index2.py                  # Cálculos básicos
-├── atividades 2 lista/        # 16 exercícios (1.py até 16.py)
-└── Possivel Prova/            # 3 desafios (1.py até 3.py)
-```
-
----
-
-**Período:** 1º Período (Fundamentos)  
-**Duração Estimada:** 30-40 horas  
-**Pré-requisito:** Nenhum  
-**Próximo:** 2º Período (Estruturas de Dados)
 

@@ -1,30 +1,17 @@
-# 📖 2º Período - [Em Planejamento]
+# 2P - Planejamento
 
-![Status](https://img.shields.io/badge/Status-Planejado-gray)
-![Exercises](https://img.shields.io/badge/Exerc%C3%ADcios-TBD-lightgray)
-![Content](https://img.shields.io/badge/Conte%C3%BAdo-Pendente-lightgray)
+No momento, o 2P ainda nao possui exercicios Python adicionados.
 
-## 📋 Situação Atual
+## Situacao atual
 
-Este período está **em fase de planejamento**. Nenhum exercício foi desenvolvido ainda.
+- Pasta existente: `2P/`
+- Arquivo atual: `readme.md`
+- Quantidade de exercicios implementados: **0**
 
-## 🎯 Objetivos Planejados
+## Proxima etapa sugerida
 
-Este período deverá cobrir tópicos avançados como:
+Iniciar com uma primeira lista de exercicios do 2P e atualizar este readme com:
 
-- **Funções e Modularização**
-- **Listas e Estruturas de Dados**
-- **Dicionários e Estruturas Complexas**
-- **Manipulação de Strings Avançada**
-- **Tratamento de Erros (try/except)**
-- **Arquivos e I/O**
-- **Algoritmos de Ordenação e Busca**
-
-## 🚀 Próximos Passos
-
-Após completar o 1º Período com sucesso, este material será desenvolvido.
-
----
-
-**Status:** ⏳ Em Desenvolvimento  
-**Início Previsto:** A Confirmar
+- quantidade de arquivos
+- temas abordados
+- instrucoes de execucao
