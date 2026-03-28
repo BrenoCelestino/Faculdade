@@ -1,19 +1,41 @@
 poke = int(input())
-Rattata = int(input())
-Eevee = int(input())
-Pikachu = int(input())
-Bulbasaur = int(input())
-Squirtle = int(input())
-Charmander = int(input())
 
-RattataVAR = 1
-EeveeVAR = 5
-PikachuVAR = 10
-BulbasaurVAR = 25
-SquirtleVAR = 50
-CharmanderVAR = 100
+inRattata = int(input())
+inEevee = int(input())
+inPikachu = int(input())
+inBulbasaur = int(input())
+inSquirtle = int(input())
+inCharmander = int(input())
 
-div = poke % Rattata
-div2 = poke / Rattata
+Rattata = 1
+Eevee = 5
+Pikachu = 10
+Bulbasaur = 25
+Squirtle = 50
+Charmander = 100
 
-print(div)
+capRattata = min(inRattata, poke // Rattata)
+poke -= capRattata * Rattata
+
+capEevee = min(inEevee, poke // Eevee)
+poke -= capEevee * Eevee
+
+capPikachu = min(inPikachu, poke // Pikachu)
+poke -= capPikachu * Pikachu
+
+capBulbasaur = min(inBulbasaur, poke // Bulbasaur)
+poke -= capBulbasaur * Bulbasaur
+
+capSquirtle = min(inSquirtle, poke // Squirtle)
+poke -= capSquirtle * Squirtle
+
+capCharmander = min(inCharmander, poke // Charmander)
+poke -= capCharmander * Charmander
+
+print(poke)
+print(f'Rattata {capRattata}')
+print(f'Eevee {capEevee}')
+print(f'Pikachu {capPikachu}')
+print(f'Bulbasaur {capBulbasaur}')
+print(f'Squirtle {capSquirtle}')
+print(f'Charmander {capCharmander}')
